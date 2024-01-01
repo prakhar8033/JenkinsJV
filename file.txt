@@ -1,0 +1,8 @@
+var inputText = getText("input_ID");
+var resultTemperature = celsiusToFahrenheit(inputText);
+setText("label_1_ID","resultTemperature");
+
+function celsiusToFahrenheit (var Celsius) {
+    var Fahrenehit = expression(Celsius);
+    return Fahrenehit;
+}
